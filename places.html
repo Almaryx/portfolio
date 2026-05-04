@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects - Dara Markova</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+    <link rel="manifest" href="site.webmanifest" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+      body {
+        font-family: "Poppins", sans-serif;
+      }
+      .navbar {
+        background-color: #1b0b3e !important;
+      }
+      .btn-primary {
+        background-color: #6f42c1;
+        border-color: #6f42c1;
+      }
+      .btn-primary:hover {
+        background-color: #5a32a3;
+        border-color: #5a32a3;
+      }
+      .project-card {
+        border-radius: 1em;
+        border: 1px solid #e0e0e0;
+        overflow: hidden;
+        transition: box-shadow 0.3s ease;
+      }
+      .project-card:hover {
+        box-shadow: 0 8px 24px rgba(111, 66, 193, 0.15);
+      }
+      .project-img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+      }
+      .tag {
+        display: inline-block;
+        font-size: 12px;
+        padding: 3px 10px;
+        border-radius: 20px;
+        background-color: #f3f0ff;
+        color: #6f42c1;
+        margin: 2px;
+      }
+        .section-title {
+          text-align: center;
+          margin-bottom: 2rem;
+        }
+        .page-hero {
+          background-color: #f3f0ff;
+          padding: 3em 0;
+          text-align: center;
+          margin-bottom: 3rem;
+        }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container">
+        <a class="navbar-brand p-0" href="/"
+          ><img src="D.png" alt="Logo" width="40"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="places.html">Projects</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="page-hero">
+        <h1 class="fw-light">My Projects</h1>
+        <p class="text-muted">Things I built while learning - real code, real results.</p>
+      </div>
+
+    <div class="container pb-5">
+      <div class="row justify-content-center g-4">
+
+        <div class="col-lg-8">
+          <div class="project-card">
+            <img
+              src="rise.jpg"
+              class="project-img"
+              alt="Portfolio website screenshot"
+            />
+            <div class="p-4">
+              <h4 class="mb-1">Personal Portfolio Website</h4>
+              <p class="text-muted mb-3" style="font-size: 14px;">First project - built from scratch</p>
+                <p>
+                  A personal portfolio website built entirely from scratch as my first web development project
+                  Includes a hero section, About me, Skills cards, and a footer. 
+                  Designed to present my profile for an IT Ausbildung application in Germany. 
+              </p>
+              <p>
+                <strong>What I learned:</strong> HTML structure, Bootstrap 5 grid system,
+                CSS styling and custom variables, responsive design, and how to 
+                publish a website online.
+              </p>
+              <div class="mb-3">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS3</span>
+                <span class="tag">Bootstrap 5</span>
+                <span class="tag">Responsive design</span>
+              </div>
+              <a
+                href="https://github.com/Almaryx" 
+                target="_blank"
+                class="btn btn-primary me-2"
+                >View on GitHub</a>
+              <a href="/" class="btn btn-outline-secondary">Live site</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-8">
+          <div class="project-card p-4 text-center" style="background: #fafafa;">
+            <p style="font-size: 2rem;">🚀</p>
+            <h5 class="text-muted">More projects coming soon...</h5>
+            <p class="text-muted" style="font-size: 14px;">
+            Currently learning JavaScript - next project in progress. 
+            </p>
+          </div>
+        </div>
+
+        </div>
+
+      <footer class="text-center text-muted py-4 mt-3" style="border-top: 1px solid #e0e0e0;">
+        <p class="mb-1">Dara Markova · Neu-Ulm, Germany</p>
+        <p class="mb-0">
+          <a href="https://github.com/Almaryx" target="_blank" class="text-muted me-3">GitHub</a> | 
+          <a href="mailto:dara.markova.a@gmail.com" class="text-muted">dara.markova.a@gmail.com</a>
+        </p>
+      </footer>
+
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"
+      ></script>
+  </body>
+</html>
